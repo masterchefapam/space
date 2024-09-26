@@ -38,8 +38,32 @@ const blurHeader = ()=>{
 
 window.addEventListener('scroll',blurHeader)
 /*=============== SWIPER PLANETS ===============*/ 
+const swiperTravel = new Swiper('.travel__swiper', {
+    loop: true,
+    spaceBetween: '32',
+    grabCursor: true,
+    slidesPerView: 'auto',
+    centeredSlides: 'auto',
 
+  
+    // If we need pagination
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
 
+    breakpoints: {
+        600:{
+            slidesPerView: 2,
+
+        },
+        900: {
+            slidesPerView: 3,
+        }
+
+    }
+  
+})
 /*=============== SHOW SCROLL UP ===============*/ 
 
 

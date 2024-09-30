@@ -93,7 +93,7 @@ const swiperTravel = new Swiper('.travel__swiper', {
                  }
                 })
     }
- window.addEventListener('scroll',scrollActive)
+ window.addEventListener('scroll',scrollActive);
  
 /*=============== SCROLL REVEAL ANIMATION ===============*/
 
